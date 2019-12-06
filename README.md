@@ -1,1 +1,1 @@
-# sleepClinic
+# sleep-clinic
