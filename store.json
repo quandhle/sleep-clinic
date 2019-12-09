@@ -1,0 +1,26 @@
+{
+    "questionairre": {
+        "name": "",
+        "email": "",
+        "phoneNumber": ""
+    },
+    "dashboard": {
+        "loading": {
+            "patients": false,
+        },
+        "patients": {
+            "patientID": "string",
+            "name": "string",
+            "email": "string",
+            "questionaire": "string",
+            "paid": "boolean",
+            "sales": "",
+            "webcamHistory": "number",
+            "sleepKitTrackingNumber": "string",
+            "kitSentBack": "boolean",
+            "followedUp": "boolean",
+            "sleepKitContract": "string",
+            "webCamHistory": {}
+        }
+    }
+}
