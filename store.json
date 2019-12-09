@@ -6,7 +6,7 @@
     },
     "dashboard": {
         "loading": {
-            "patients": false,
+            "patients": false
         },
         "patients": {
             "patientID": "string",
@@ -19,8 +19,7 @@
             "sleepKitTrackingNumber": "string",
             "kitSentBack": "boolean",
             "followedUp": "boolean",
-            "sleepKitContract": "string",
-            "webCamHistory": {}
+            "sleepKitContract": "string"
         }
     }
 }

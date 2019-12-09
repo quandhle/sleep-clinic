@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
-import portrait from '../../assets/portrait.png';
+import portrait from '../../../assets/portrait.png';
 
 // remove 1px line after section
 const styles = theme => ({

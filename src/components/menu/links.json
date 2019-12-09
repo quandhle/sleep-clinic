@@ -1,10 +1,32 @@
 {
     "links": [
-        "New Patient",
-        "About",
-        "Services",
-        "In the Press",
-        "Contact",
-        "Login"
+        {
+            "to": "/",
+            "text": "Home"
+        },
+        {
+            "to": "/new_patient",
+            "text": "New Patient"
+        },
+        {
+            "to": "/about",
+            "text": "About"
+        },
+        {
+            "to": "/services",
+            "text": "Services"
+        },
+        {
+            "to": "/press",
+            "text": "In the Press"
+        },
+        {
+            "to": "/contact",
+            "text": "Contact"
+        },
+        {
+            "to": "/login",
+            "text": "Login"
+        }
     ]
 }

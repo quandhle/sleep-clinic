@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles'
-import doctor from '../../assets/doctor.png';
+import doctor from '../../../assets/doctor.png';
 import HomeDoctor from './homeDoctor';
 import SleepFacts from './sleepFacts';
 

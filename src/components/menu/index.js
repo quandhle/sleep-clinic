@@ -1,7 +1,8 @@
 import React from 'react';
-import { Typography, Grid, Container } from '@material-ui/core';
+import { Grid, Container } from '@material-ui/core';
 import links from './links.json';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom';
 
 const theme = createMuiTheme({
     overrides: {
@@ -21,14 +22,26 @@ const theme = createMuiTheme({
 });
 
 class MenuBar extends React.Component {
+    renderLinks = () => {
+        const topBarLinks = links.links.map(this.buildLink);
+
+        return (
+            <React.Fragment>
+                {topBarLinks}
+            </React.Fragment>
+        )
+    }
+
+    buildLink = (item, index) => {
+        return (
+            <Grid item key={index}>
+                <Link to={item.to}>{item.text}</Link>
+            </Grid>
+        )
+    }
+
     render() {
-        const topBarLinks = links.links.map((item, index) => {
-            return (
-                <Grid item>
-                    <Typography key={index}>{item}</Typography>
-                </Grid>
-            )
-        });
+        const topBarLinks = this.renderLinks();
 
         return (
             <Container>
